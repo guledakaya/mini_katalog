@@ -1,17 +1,40 @@
-# mini_katalog
+Mini Katalog Uygulaması - Flutter
+=================================
 
-A new Flutter project.
+Bu proje, Software Persona bünyesinde gerçekleştirilen Yazılım Stajı kapsamında, **Mobil Uygulama Geliştirme** eğitim haftası içeriklerine uygun olarak geliştirilmiş bir *Mini Katalog Uygulaması* prototipidir.
 
-## Getting Started
+Proje Hakkında
+-----------------
+Uygulama; modern bir kullanıcı arayüzü (UI) tasarımı, sayfa yönetimi (Navigation) ve veri modelleme tekniklerini içeren basit bir katalog/e-ticaret akışını simüle eder. Ürünler listelenir, detay sayfasına gidilir ve sepete ekleme işlemi temel bir state simülasyonu ile gösterilir.
 
-This project is a starting point for a Flutter application.
+Teknik Özellikler & Kazanımlar
+---------------------------------
+- **Mimari Yapı**: Kod yapısı `models`, `screens` ve `widgets` klasörlerine ayrılarak okunabilirlik ve sürdürülebilirlik artırılmıştır.
+- **Veri Modelleme**: `Product` model sınıfı ile nesne tabanlı programlama (OOP) prensipleri üzerinden veri yönetimi kurgulanmıştır.
+- **Navigasyon**: Sayfalar arası geçişte `Navigator.push` kullanılarak ürün nesnesi detay sayfasına aktarılır.
+- **UI Bileşenleri**: `GridView.builder`, `Stack`, kart tabanlı tasarımlar ve gradient banner ile modern bir arayüz oluşturulmuştur.
+- **State Simülasyonu**: “Sepete Ekle” aksiyonunda `SnackBar` ile geri bildirim ve sepet simülasyonu uygulanmıştır.
 
-A few resources to get you started if this is your first Flutter project:
+Klasör Yapısı
+----------------
+```text
+lib/
+├── models/   # Ürün veri modeli ve dummy simülasyon verileri
+├── screens/  # Discover (ana liste) ve ProductDetail (ürün detay) sayfaları
+├── widgets/  # Tekrar kullanılabilir arayüz bileşenleri (ör. ProductCard)
+└── main.dart # Uygulama giriş noktası ve tema yapılandırması
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Çalıştırma
+-------------
+Projenin kök klasöründe aşağıdaki komutları izleyerek uygulamayı çalıştırabilirsiniz:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
+
+Geliştirici
+----------------
+Gül Eda KAYA  
+Software Persona Yazılım Stajı - 2026
