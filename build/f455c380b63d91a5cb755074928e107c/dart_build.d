@@ -1,0 +1,1 @@
+ C:\\Users\\gldky\\OneDrive\\Desktop\\SP\ Staj\\Mobil\ Uygulama\ Geliştirme;\ Android\ \ iOS\\staj-mobil-proje\\mini_katalog\\build\\f455c380b63d91a5cb755074928e107c\\dart_build_result.json: 
